@@ -1,0 +1,25 @@
+{
+  "name": "daledale",
+  "version": "1.0.0",
+  "description": "Dale dale dale dale pqp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git", 
+    "url": "git+ssh://git@github.com/anabastos/daledale.git"
+  },
+  "keywords": [
+    "daledale"
+  ],
+  "author": "AnaBastos",
+  "license": "MIT",
+  "bin": {
+    "daledale": "./index.js" 
+  },
+  "bugs": {
+    "url": "https://github.com/anabastos/daledale/issues" 
+  },
+  "homepage": "https://github.com/anabastos/daledale#readme"
+}
