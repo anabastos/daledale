@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "repository": {
-    "type": "git", 
+    "type": "git",
     "url": "git+ssh://git@github.com/anabastos/daledale.git"
   },
   "keywords": [
@@ -16,10 +16,13 @@
   "author": "AnaBastos",
   "license": "MIT",
   "bin": {
-    "daledale": "./index.js" 
+    "daledale": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/anabastos/daledale/issues" 
+    "url": "https://github.com/anabastos/daledale/issues"
   },
-  "homepage": "https://github.com/anabastos/daledale#readme"
+  "homepage": "https://github.com/anabastos/daledale#readme",
+  "dependencies": {
+    "ramda": "^0.26.1"
+  }
 }
