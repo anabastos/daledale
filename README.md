@@ -27,6 +27,12 @@ Or import in NodeJS script:
     import daledale from 'daledale';
 
     daledale();
+    
+## Running with [npx](https://www.npmjs.com/package/npx)
+Run command:
+
+    npx daledale
+
 
 ## See also
 
