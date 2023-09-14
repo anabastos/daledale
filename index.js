@@ -6,9 +6,9 @@ const fs = require('fs');
 const R = require('ramda');
 
 const mainPath = path.dirname(fs.realpathSync(__filename));
-const soundPath = path.join(mainPath, './daledale');
+const soundPath = path.join(mainPath, './dale-de-cano-de-ferro');
 
-const daledale = function (){
+const daleDeCanoDeFerro = function (){
     const linuxcmd = R.join('', ['paplay ', soundPath, '.ogg']);
     const windowscmd = R.join('', [path.join(mainPath, './forWindows.vbs'), ' ', soundPath, '.mp3']);
     const maccmd = R.join('', ['afplay ', soundPath, '.mp3']);
@@ -25,15 +25,15 @@ const daledale = function (){
         return exect(cmd, function (error) {
             R.ifElse(
                R.empty,
-               () => console.log('VAMO DALE!'),
+               () => console.log('dale de cano de ferrooooooooo'),
                (error) => console.error(error),
                error)
         });
     }
 }
 
-module.exports = daledale;
+module.exports = daleDeCanoDeFerro;
 
 if (!module.parent) {
-    daledale();
+    daleDeCanoDeFerro();
 }

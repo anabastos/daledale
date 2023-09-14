@@ -1,10 +1,11 @@
-# DaleDale Command Line Sound
+# Dale de cano de ferro Command Line Sound
 
 <div style="text-align: center">
-    <img src="./daledale.jpg" height="300"/>
+    <img src="./dale-de-cano-de-ferro.png" height="300"/>
 </div>
 
-> Dale dale dale dale PQP! 
+> Dale dale mas com cano de ferro. 
+> Em homenagem ao colega de trampo Vinibah.
 
 ## Compatibility
 
@@ -15,27 +16,28 @@
 ## Installing
 Install globally:
 
-    npm install -g daledale
+    npm install -g dale-de-cano-de-ferro
 
 ## Running
 Run command:
 
-    daledale
+    dale-de-cano-de-ferro
 
 Or import in NodeJS script:
 
-    import daledale from 'daledale';
+    import daleDeCanoDeFerro from 'daleDeCanoDeFerro';
 
-    daledale();
+    daleDeCanoDeFerro();
     
 ## Running with [npx](https://www.npmjs.com/package/npx)
 Run command:
 
-    npx daledale
+    npx daleDeCanoDeFerro
 
 
 ## See also
 
+ - [Daledale](https://github.com/anabastos/daledale)
  - [Oloquinho](https://github.com/oloquinho/oloquinho)
  - [xFiles](https://github.com/BrOrlandi/xfiles/)
  - [Faustão Errou](https://github.com/BrOrlandi/faustao-errou/)

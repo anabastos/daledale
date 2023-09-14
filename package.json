@@ -1,27 +1,27 @@
 {
-  "name": "daledale",
+  "name": "dale-de-cano-de-ferro",
   "version": "1.0.0",
-  "description": "Dale dale dale dale pqp",
+  "description": "dale de cano de ferro",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/anabastos/daledale.git"
+    "url": "git+ssh://git@github.com/gabrielebonfim/dale-de-cano-de-ferro.git"
   },
   "keywords": [
-    "daledale"
+    "dale de cano de ferro"
   ],
   "author": "AnaBastos",
   "license": "MIT",
   "bin": {
-    "daledale": "./index.js"
+    "dale-de-cano-de-ferro": "./index.js"
   },
   "bugs": {
-    "url": "https://github.com/anabastos/daledale/issues"
+    "url": "https://github.com/gabrielebonfim/dale-de-cano-de-ferro/issues"
   },
-  "homepage": "https://github.com/anabastos/daledale#readme",
+  "homepage": "https://github.com/gabrielebonfim/dale-de-cano-de-ferro#readme",
   "dependencies": {
     "ramda": "^0.26.1"
   }
